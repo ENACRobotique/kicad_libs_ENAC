@@ -1,5 +1,7 @@
 # Libraries KiCAD ENAC Robotique
 
+## Installation
+
 Clonez ce repo : `git clone https://github.com/ENACRobotique/kicad_libs_ENAC.git`
 
 Ouvrez KiCAD et ajouter les librairies de symboles et d'empreintes :
@@ -17,3 +19,29 @@ Ajoutez le chemin vers les modèles 3D:
 
 
 Vous êtes prêts !
+
+
+## Recommandations de conception
+
+### Empreintes
+
+- Résistance et les condensateurs : utiliser tant que possible l'empreinte **0603** (1608 Metric)
+- LEDs : **0603**
+
+### Contraintes
+
+![contraintes](contraintes_pcbnew.png)
+
+**pistes**:
+
+- 0.125 mm
+- 0.250 mm
+- 0.3 mm
+- 0.5 mm
+- 0.8 mm
+- 1 mm
+
+**Vias**:
+
+- 0.7/0.4 mm
+- 0.5/0.3 mm
