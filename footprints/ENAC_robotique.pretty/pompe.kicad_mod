@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "F.CrtYd")
+		(layer "Edge.Cuts")
 		(uuid "e6199365-d1c5-446f-a60d-8fb553f4269e")
 	)
 	(fp_text user "${REFERENCE}"
